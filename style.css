@@ -1,0 +1,184 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://blackseals.net/
+Description: BlackSeals OceanWP WordPress theme.
+Author: Andyt
+Author URI: https://blackseals.net/
+Template: oceanwp
+Version: 3.6.0
+*/
+
+/* BlackSeals Link Indication */
+a[href*="archive.org"] { padding-right: 17px !important; background: url(./images/link-indication/archive.png) no-repeat right !important; }
+a[href*="anydesk.com"] {padding-right: 17px !important; background: url(./images/link-indication/anydesk.png) no-repeat right !important; }
+a[href*="blog.blackseals.net"] { padding-right: 17px !important; background: url(./images/link-indication/blackseals-orange.png) no-repeat right !important; }
+a[href^="ftp://"] {padding-right: 17px !important; background: url(./images/link-indication/ftp.png) no-repeat right !important; }
+a[href^="file://"] {padding-right: 17px !important; background: url(./images/link-indication/ftp.png) no-repeat right !important; }
+a[href*="galerie.blackseals.net"] {padding-right: 17px !important; background: url(./images/link-indication/blackseals-green.png) no-repeat right !important; }
+a[href*="github.com"] {padding-right: 17px !important; background: url(./images/link-indication/github.png) no-repeat right !important; }
+a[href^="mailto:"] {padding-right: 17px !important; background: url(./images/link-indication/mail.gif) no-repeat right !important; }
+a[href*="tripadvisor"] {padding-right: 17px !important; background: url(./images/link-indication/tripadvisor.png) no-repeat right !important; }
+a[href*="wikipedia.org"] {padding-right: 17px !important; background: url(./images/link-indication/wikipedia.png) no-repeat right !important; }
+a[href*="wordpress.org"] {padding-right: 17px !important; background: url(./images/link-indication/wordpress.png) no-repeat right !important; }
+a[href*="wpde.org"] {padding-right: 17px !important; background: url(./images/link-indication/wordpress.png) no-repeat right !important; }
+a[href$=".pdf"]  {padding-right: 17px !important; background: url(./images/link-indication/pdf.png) no-repeat right !important; }
+a[href$=".zip"] {padding-right: 17px !important; background: url(./images/link-indication/zip.png) no-repeat right !important; }
+
+/* BlackSeals OceanWP */
+a:focus {
+	color: #b7752a !important;
+	text-decoration-color: #b7752a !important;
+}
+body.home .page-header-inner {
+  text-align: left !important;
+}
+table {
+  width: 100% !important;
+  margin-bottom: 5px !important;
+  margin-right: 5px !important;
+}
+table th, table td {
+    padding: 10px !important;
+    text-align: left !important;
+    vertical-align: top !important;
+    border-bottom: none !important;
+}
+.blog-entry.grid-entry .thumbnail {
+  margin: 1px !important;
+  padding-bottom: 5px !important;
+}
+.blog-entry.grid-entry .blog-entry-readmore a {
+  display: inline-block !important;
+  font-size: 14px !important;
+  color: #b7752a !important;
+  line-height: 1.2 !important;
+  padding-bottom: 0.19rem !important;
+  border-bottom: 1px solid !important;
+  text-transform: none !important;
+}
+.blog-entry.grid-entry .blog-entry-readmore a:hover {
+  font-size: 16px !important;
+  color: #333 !important;
+}
+.blog-entry.grid-entry .thumbnail {
+  margin: 1px !important;
+  padding-bottom: 5px !important;
+}
+.dropdown-menu ul li a.menu-link {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 1.2em !important;
+    letter-spacing: 0.6px !important;
+    text-transform: none !important;
+}
+.error-text a {
+	color: #b7752a !important;
+}
+.error-text a:hover {
+	color: #333 !important;
+}
+.error404-content .error-btn:hover {
+    color: #000 !important;
+}
+.footer-widget select {
+	color: #333 !important;
+}
+.nav-content {
+    display: block !important;
+    font-size: 11px !important;
+    line-height: 1.8 !important;
+    padding: 5px 0 5px 5px !important;
+    white-space: normal !important;
+    -moz-opacity: .7 !important;
+    -webkit-opacity: .7 !important;
+    opacity: .7 !important;
+    color: black !important;
+}
+.oceanwp-about-me .blackseals-about-me-social li {
+    display: inline-block;
+    margin-left: 6px;
+}
+.oceanwp-about-me .blackseals-about-me-social li a {
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}							   
+.page-numbers {
+  color: #000000 !important;
+}
+.tagcloud a {
+  display: inline-block !important;
+  background-color: #F9F9F9 !important;
+  color: #dd9933 !important;
+  border: 2px solid !important;
+  font-size: 12px !important;
+  line-height: 1 !important;
+  padding: 8px 12px !important;
+  margin: 0 2px 5px 0 !important;
+  letter-spacing: 0.4px !important;
+  text-transform: none !important;
+}
+.tagcloud a:hover {
+  background-color: #F9F9F9 !important;
+  color: #333 !important;
+  font-size: 14px !important;
+  border-color: black !important;
+}
+
+table.wp-calendar-table th, table.wp-calendar-table td {
+    padding: 0px !important;
+    text-align: center !important;
+    vertical-align: top !important;
+}
+.thumbnail-caption {
+  display: none;
+}
+
+/* BlackSeals Flex Posts */
+.fp-categories {
+	opacity: 1 !important;
+}
+span.fp-categories a {
+  opacity: 1 !important;
+  text-decoration: none !important;
+	border-bottom: 1px dotted;
+}
+.fp-post .fp-readmore a {
+    display: inline-block !important;
+    font-size: 14px !important;
+    color: #b7752a !important;
+    line-height: 1.2 !important;
+	border: none !important;
+	padding: 0px !important;
+	border-radius: 0px !important;
+    text-transform: none !important;
+}
+.fp-post .fp-readmore a:hover {
+  font-size: 16px !important;
+  color: #333 !important;
+}
+
+/* BlackSeals Broken Link Checker */
+.broken_link, a.broken_link {
+	text-decoration: line-through !important;
+	text-decoration-color: darkred !important;
+}
+
+/* BlackSeals NextGEN */
+.ngg-breadcrumbs {
+    text-transform: none !important;
+    overflow: visible !important;
+}
+.ngg-albumoverview.default-view .ngg-albumtitle {
+    font-size: 17px !important;
+    text-transform: none !important;
+}
+
+/*BlackSeals Rotating Twitter*/
+.rotatingtweet a {
+    color: #b7752a !important;
+}
+.rotatingtweet a:hover {
+	color: #333 !important;
+}
