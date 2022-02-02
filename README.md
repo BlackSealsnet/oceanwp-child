@@ -10,9 +10,13 @@
 
 ## Description
 
-**oceanwp-child** is a Child Theme for OceanWP. It need the latest theme from 
+**BlackSeals OceanWP WordPress theme** (_oceanwp-child_) is a Child Theme for OceanWP. It need the latest theme from 
 [wordpress.org](https://wordpress.org/themes/oceanwp/)
  
 ## Actions
 
-It includes an action to do an automatic update for every new version.
+It includes **Actions** to do automatic workflows, like push new version to several servers. Those files aren't required to work with WordPress. By the way, there should be no security risk if they are still in the folder.
+
+## Update
+
+The latest version supports [GitHub Updater](https://github.com/afragen/git-updater). With that plugin, WordPress is able to do automatic updates for plugins, themes, and language packs from GitHub Repository.
