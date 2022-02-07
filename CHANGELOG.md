@@ -3,6 +3,10 @@ oceanwp-child Changelog
 
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
+3.6.2
+-----
+- Tags do not use capital letters. No transformation takes place.
+
 3.6.1
 -----
 - include GitHub Theme URI to enable Git Updater
