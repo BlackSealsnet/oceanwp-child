@@ -21,7 +21,6 @@ _This list shows the main changes. For a much more detailed list, simply refer t
 -----
 - don't remember. Some little bugs I guess.
 
-
 3.1 to 3.5
 ----------
 - don't remember. A few tiny and bigger stuff for sure.

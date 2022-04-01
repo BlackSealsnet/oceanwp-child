@@ -10,13 +10,13 @@
 
 * WordPress Version: 5.6 or higher
 * PHP Version: 7.2 or higher
-* Tested up to: OceanWP 3.2.0
+* Tested up to: OceanWP 3.2.1
 
 
 ## Description
 
 **BlackSeals OceanWP WordPress theme** (_oceanwp-child_) is a Child Theme for OceanWP. It need the latest theme from 
-[wordpress.org](https://wordpress.org/themes/oceanwp/)
+[wordpress.org](https://wordpress.org/themes/oceanwp/). It adds several new features like support for WordPress Plugin [WP-Print](https://wordpress.org/extend/plugins/wp-print/) or Link-Indication. There are also optimizations for the theme and other plugins (Broken Link Checker, NextGEN Gallery, Flex Posts or Rotating Twitter).
  
 ## Actions
 
