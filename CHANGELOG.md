@@ -3,11 +3,16 @@ oceanwp-child Changelog
 
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
+3.8
+-----
+- add necessary changes to one files because of OceanWP 3.3.4.
+
 3.7
 -----
 - add necessary changes to several files because of OceanWP 3.3.0.
 - getting new nice screenshot matching example OceanWP Child Theme.
 - including changes from the last example OceanWP Child Theme.
+
 3.6.2
 -----
 - Tags do not use capital letters. No transformation takes place.

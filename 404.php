@@ -87,14 +87,19 @@ if ( 'on' === get_theme_mod( 'ocean_error_page_blank', 'off' ) ) { ?>
 
 												} else {
 
+													// If Gutenberg.
+													if ( ocean_is_block_template( $get_id ) ) {
+														$get_content = apply_filters( 'ocean_error_page_template_content', do_blocks( $get_content ) );
+													}
+
 													// Display template content.
-													echo do_blocks( $get_content );
+													echo do_shortcode( $get_content );
 
 												}
 											} else {
 												?>
 
-													<div class="error404-content clr">
+												<div class="error404-content clr">
 
 													<h2 class="error-title">Inhalt nicht gefunden / Content not found</h2>
 													<p class="error-text">Entschuldige bitte, aber die Seite konnte nicht gefunden werden. Wom&ouml;glich ein Tippfehler? Bitte pr&uuml;fe die Eingabe...<br />Sorry, but the page you requested could not be found. Perhaps an entry error? Please check the input...</p>
@@ -108,6 +113,7 @@ if ( 'on' === get_theme_mod( 'ocean_error_page_blank', 'off' ) ) { ?>
 													<br />
 													<p class="error-text">Zum Schluss kann ein Blick in das <a href="<?php bloginfo( 'url' ); ?>/sitemap.xml">Inhaltsverzeichnis</a> hilfreich sein...<br/>
 													Finally maybe a look into the <a href="<?php bloginfo( 'url' ); ?>/sitemap.xml">Sitemap</a> is helpful...</p>
+
 													<a class="error-btn button" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Back To Homepage', 'oceanwp' ); ?></a>
 
 												</div><!-- .error404-content -->
