@@ -3,6 +3,10 @@ oceanwp-child Changelog
 
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
+3.8.1
+-----
+- CSS optimisation for NextGEN Gallery Breadcrumbs.
+
 3.8
 -----
 - add necessary changes to one files because of OceanWP 3.3.4.
