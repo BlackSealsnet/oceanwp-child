@@ -7,7 +7,7 @@
   Author: Andyt
   Author URI: https://blackseals.net/
   Template: oceanwp
-  Version: 3.8.1
+  Version: 3.8.2
 */
 
 /* BlackSeals Link Indication */
@@ -17,7 +17,7 @@ a[href*="blog.blackseals.net"] { padding-right: 17px !important; background: url
 a[href^="ftp://"] {padding-right: 17px !important; background: url(./images/link-indication/ftp.png) no-repeat right !important; }
 a[href^="file://"] {padding-right: 17px !important; background: url(./images/link-indication/ftp.png) no-repeat right !important; }
 a[href*="galerie.blackseals.net"] {padding-right: 17px !important; background: url(./images/link-indication/blackseals-green.png) no-repeat right !important; }
-a[href*="github.com"] {padding-right: 17px !important; background: url(./images/link-indication/github.png) no-repeat right !important; }
+a[href*="github.com/BlackSealsnet/"] {padding-right: 17px !important; background: url(./images/link-indication/github.png) no-repeat right !important; }
 a[href^="mailto:"] {padding-right: 17px !important; background: url(./images/link-indication/mail.gif) no-repeat right !important; }
 a[href*="tripadvisor"] {padding-right: 17px !important; background: url(./images/link-indication/tripadvisor.png) no-repeat right !important; }
 a[href*="wikipedia.org"] {padding-right: 17px !important; background: url(./images/link-indication/wikipedia.png) no-repeat right !important; }
@@ -96,16 +96,23 @@ table th, table td {
     opacity: .7 !important;
     color: black !important;
 }
-.oceanwp-about-me .blackseals-about-me-social li {
+.about-me {
+	position:relative;
+	text-align:center
+}
+.about-me-avatar img {
+	border-radius: 50%;
+}
+.about-me-social li {
     display: inline-block;
     margin-left: 6px;
 }
-.oceanwp-about-me .blackseals-about-me-social li a {
+.about-me-social li a {
     font-size: 25px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-}							   
+}													   
 .page-numbers {
   color: #000000 !important;
 }
