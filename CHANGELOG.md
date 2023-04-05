@@ -3,6 +3,10 @@ oceanwp-child Changelog
 
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
+3.8.3
+-----
+- add necessary changes to several files because of OceanWP 3.4.3.
+
 3.8.2
 -----
 - CSS redesign for about-me styling to support disabling "Widgets Stylesheet Load" from OceanWP 3.4.0.
