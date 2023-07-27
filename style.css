@@ -7,7 +7,7 @@
   Author: Andyt
   Author URI: https://blackseals.net/
   Template: oceanwp
-  Version: 3.8.4
+  Version: 3.9.0
 */
 
 /* BlackSeals Link Indication */
@@ -44,6 +44,28 @@ table th, table td {
     text-align: left !important;
     vertical-align: top !important;
     border-bottom: none !important;
+}
+table.wp-calendar-table th, table.wp-calendar-table td {
+    padding: 0px !important;
+    text-align: center !important;
+    vertical-align: top !important;
+}
+.about-me {
+	position:relative;
+	text-align:center
+}
+.about-me-avatar img {
+	border-radius: 50%;
+}
+.about-me-social li {
+    display: inline-block;
+    margin-left: 6px;
+}
+.about-me-social li a {
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
 }
 .blog-entry.grid-entry .thumbnail {
   margin: 1px !important;
@@ -95,23 +117,6 @@ table th, table td {
     -webkit-opacity: .7 !important;
     opacity: .7 !important;
     color: black !important;
-}
-.about-me {
-	position:relative;
-	text-align:center
-}
-.about-me-avatar img {
-	border-radius: 50%;
-}
-.about-me-social li {
-    display: inline-block;
-    margin-left: 6px;
-}
-.about-me-social li a {
-    font-size: 25px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
 }													   
 .page-numbers {
   color: #000000 !important;
@@ -137,13 +142,18 @@ table th, table td {
   font-size: 14px !important;
   border-color: black !important;
 }
-table.wp-calendar-table th, table.wp-calendar-table td {
-    padding: 0px !important;
-    text-align: center !important;
-    vertical-align: top !important;
-}
 .thumbnail-caption {
   display: none;
+}
+.thumbnail img {
+	margin-left: auto;
+  margin-right: auto;
+  width: auto !important;
+	display: block;
+	height: 150px !important;
+}
+.widget_recent_entries li:first-child,  .widget_recent_entries li {
+  border: 0px !important;
 }
 
 /* BlackSeals Flex Posts */

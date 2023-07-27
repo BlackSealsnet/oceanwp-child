@@ -4,6 +4,12 @@ oceanwp-child Changelog
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
 
+3.9.0
+-----
+- add CSS for latest posts do use it at footer like OceanWP Recent Posts widget.
+- add CSS optimization for thumbnail images at blog overview to set the size and to center the image.
+- some small sorting for entries in CSS-files.
+
 3.8.3
 -----
 - add necessary changes to one file because of OceanWP 3.4.4.
