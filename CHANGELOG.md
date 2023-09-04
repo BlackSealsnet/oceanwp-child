@@ -4,6 +4,11 @@ oceanwp-child Changelog
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
 
+3.9.1
+-----
+- change functions.php according to OceanWP Child Theme.
+- CSS correction link-indication for archive.org. No more overlapping.
+
 3.9.0
 -----
 - add CSS for latest posts do use it at footer like OceanWP Recent Posts widget.

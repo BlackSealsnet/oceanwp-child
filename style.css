@@ -7,11 +7,11 @@
   Author: Andyt
   Author URI: https://blackseals.net/
   Template: oceanwp
-  Version: 3.9.0
+  Version: 3.9.1
 */
 
 /* BlackSeals Link Indication */
-a[href*="archive.org"] { padding-right: 17px !important; background: url(./images/link-indication/archive.png) no-repeat right !important; }
+a[href*="archive.org"] { padding-right: 21px !important; background: url(./images/link-indication/archive.png) no-repeat right !important; }
 a[href*="anydesk.com"] {padding-right: 17px !important; background: url(./images/link-indication/anydesk.png) no-repeat right !important; }
 a[href*="blog.blackseals.net"] { padding-right: 17px !important; background: url(./images/link-indication/blackseals-orange.png) no-repeat right !important; }
 a[href^="ftp://"] {padding-right: 17px !important; background: url(./images/link-indication/ftp.png) no-repeat right !important; }
