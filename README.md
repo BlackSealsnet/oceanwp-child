@@ -10,7 +10,7 @@
 
 * WordPress Version: 5.6 or higher
 * PHP Version: 7.2 or higher
-* Tested up to: OceanWP 3.4.7
+* Tested up to: OceanWP 3.5.0
 
 
 ## Description

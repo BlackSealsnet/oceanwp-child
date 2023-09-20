@@ -7,7 +7,7 @@
   Author: Andyt
   Author URI: https://blackseals.net/
   Template: oceanwp
-  Version: 3.9.2
+  Version: 3.10.0
 */
 
 /* BlackSeals Link Indication */
@@ -78,7 +78,6 @@ table.wp-calendar-table th, table.wp-calendar-table td {
   line-height: 1.2 !important;
   padding-bottom: 0.19rem !important;
   border-bottom: 1px solid !important;
-  text-transform: none !important;
 }
 .blog-entry.grid-entry .blog-entry-readmore a:hover {
   font-size: 16px !important;
@@ -93,7 +92,6 @@ table.wp-calendar-table th, table.wp-calendar-table td {
     font-weight: 400 !important;
     line-height: 1.2em !important;
     letter-spacing: 0.6px !important;
-    text-transform: none !important;
 }
 .error-text a {
 	color: #b7752a !important;
@@ -121,6 +119,14 @@ table.wp-calendar-table th, table.wp-calendar-table td {
 .page-numbers {
   color: #000000 !important;
 }
+.related-thumb img {
+  display: inline-block !important;
+  width: auto !important;
+  height: 150px !important;
+}
+.related-thumb {
+  background-color: rgba(0,0,0,0) !important;
+}
 .single .post-tags {
     text-transform: none !important;
 }
@@ -134,7 +140,6 @@ table.wp-calendar-table th, table.wp-calendar-table td {
   padding: 8px 12px !important;
   margin: 0 2px 5px 0 !important;
   letter-spacing: 0.4px !important;
-  text-transform: none !important;
 }
 .tagcloud a:hover {
   background-color: #F9F9F9 !important;

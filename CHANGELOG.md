@@ -3,6 +3,12 @@ oceanwp-child Changelog
 
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
+3.10.0
+-----
+- add CSS entries for related thumbnail.
+- cleanup for some old CSS entries.
+- removed print icon support for WordPress plugin WP-Print.
+
 3.9.2
 -----
 - remove CSS entries for Rotating Twitter.
