@@ -9,8 +9,8 @@
 > Copyright by BlackSeals Network.
 
 * WordPress Version: 5.6 or higher
-* PHP Version: 7.2 or higher
-* Tested up to: OceanWP 3.5.4
+* PHP Version: 7.4 or higher
+* Tested up to: OceanWP 4.0.0
 
 
 ## Description

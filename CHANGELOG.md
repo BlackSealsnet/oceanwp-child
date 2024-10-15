@@ -3,6 +3,10 @@ oceanwp-child Changelog
 
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
+3.12.0
+-----
+- change functions.php according to OceanWP Child Theme.
+
 3.11.0
 -----
 - add CSS entries for removing website from comments form.
