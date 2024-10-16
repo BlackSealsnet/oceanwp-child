@@ -7,7 +7,7 @@
   Author: Andyt
   Author URI: https://blackseals.net/
   Template: oceanwp
-  Version: 3.12.0
+  Version: 3.12.1
 */
 
 /* BlackSeals Link Indication */
@@ -122,6 +122,9 @@ table.wp-calendar-table th, table.wp-calendar-table td {
     -webkit-opacity: .7 !important;
     opacity: .7 !important;
     color: black !important;
+}
+.page-header {
+	padding: 10px 0; !important;
 }													   
 .page-numbers {
   color: #000000 !important;
