@@ -3,6 +3,11 @@ oceanwp-child Changelog
 
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
+3.14.0
+-----
+- CSS redesign at Ocean Sticky Footer for text style.
+- CSS redesign at Ivory Search for text style at ajax search feature.
+
 3.13.0
 -----
 - remove CSS entry to remove link-indication for anydesk.com.

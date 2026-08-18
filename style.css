@@ -7,7 +7,7 @@
   Author: Andyt
   Author URI: https://blackseals.net/
   Template: oceanwp
-  Version: 3.13
+  Version: 3.14
 */
 
 /* BlackSeals Link Indication */
@@ -32,6 +32,9 @@ a:focus {
 }
 body.home .page-header-inner {
   text-align: left !important;
+}
+#footer-bar .osf-left li.menu-item a {
+  text-transform: none !important;
 }
 table {
   width: 100% !important;
@@ -198,6 +201,11 @@ span.fp-categories a {
 .broken_link, a.broken_link {
 	text-decoration: line-through !important;
 	text-decoration-color: darkred !important;
+}
+
+/* BlackSeals Ivory Search*/
+.is-ajax-search-details .is-title a, .is-ajax-search-post .is-title a {
+  text-transform: none !important;
 }
 
 /* BlackSeals NextGEN Gallery */
