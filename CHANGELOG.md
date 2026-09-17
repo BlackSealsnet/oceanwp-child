@@ -3,6 +3,10 @@ oceanwp-child Changelog
 
 _This list shows the main changes. For a much more detailed list, simply refer to [commit messages](https://github.com/BlackSealsnet/oceanwp-child/commits/main)._
 
+3.14.1
+-----
+- CSS correcting Link Focus according different color.
+
 3.14.0
 -----
 - CSS redesign at Ocean Sticky Footer for text style.
